@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Joga da Memória</title>
+  </head>
+  <body>
+    <div class="placar">
+      <div class="placar-content">
+        <div>   
+          <p>Pontos: <span class="pontos">0</span></p>
+          <p>
+            Jogadas:
+            <span class="jogadas">0</span>
+          </p>
+        </div>
+        <h2 class="clock">
+          <span class="min">00</span> : <span class="sec">00</span>
+        </h2>
+      </div>
+    </div>
+    <div id="root"></div>
+    <div class="modal-background">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2>Parabéns, você ganhou!</h2>
+          <h3>Jogo concluído em:</h3>
+          <ul>
+            <li>
+              <span class="min">00</span> min e <span class="sec"></span> seg
+            </li>
+            <li><span class="jogadas">0 </span> jogadas</li>
+            <li><span class="pontos">0 </span> pontos</li>
+          </ul>
+          <p class="btn">
+            <button>Jogar Novamente</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
