@@ -1,0 +1,234 @@
+//colors
+$black: #2B2B3D
+$red: #E89873
+$grey: #5C5C6E
+$green: #AEF08F
+
+
+//all
+*
+  font-family: 'Montserrat', sans-serif
+  color: white
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+//body
+body
+  background: $black
+
+.placar
+  margin: 1rem
+  display: flex
+  justify-content: center
+  text-align: center
+  &-content
+    width: 50%
+    div:first-child
+      font-weight: 700
+      font-size: 24px
+      display: flex
+      justify-content: space-between
+.clock
+  span
+    display: inline-block
+    width: 35px
+    text-align: right
+
+//root
+#root
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  display: flex
+  justify-content: center
+  align-items: center
+
+//modal
+.modal
+  &-background
+    display: none
+    background: rgba(40, 40, 40, 0.49)
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    justify-content: center
+    align-items: center
+  &-content
+    width: 900px
+    height: 385px
+    border-radius: 26px
+    background-color: #585555
+  &-body
+    padding: 6rem
+    border-radius: 5px
+    h3
+      margin-top: 1.5rem
+      font-weight: 600
+    ul
+      margin-top: 1rem  
+      margin-left: 5rem
+      list-style: none
+      li
+        font-weight: 400
+        display: flex
+        align-items: center
+        span
+          padding: 0  0.25rem
+        &::before
+          content: " "
+          background-color: #C4C4C4
+          display: inline-block
+          width: 0.5rem
+          height: 0.5rem
+          border-radius: 50%
+          margin-right: 0.5rem
+    h2
+      text-align: center
+    .btn
+      margin-top: 1rem
+      text-align: center
+      button
+        font-weight: 600
+        cursor: pointer
+        font-size: 19px
+        height: 54px
+        border-radius: 10px
+        width: 256px
+        padding: 0.25rem
+        background: $red
+        border: none
+        transition: 0.25s
+        &:hover
+          transition: 0.25s
+          transform: scale(1.05) translateY(-10px)
+    
+//cards
+.memory
+  width:  100px
+  height: 100px
+  margin-bottom: 1rem
+  margin-left: 1rem
+  display: flex
+  justify-content: center
+  background-color: $red
+  cursor: pointer
+  img
+    display: none
+    width: 50%
+    user-select: none
+
+//animation
+.show 
+  cursor: not-allowed
+  background-color: $green
+  transition: 0.25s
+  img
+    animation: rotate 1s
+    display: block
+
+.right
+  cursor: not-allowed
+  background-color: $grey
+  img
+    animation: vibrate 1s
+    display: block
+
+.wrong
+  background-color: #FF3838
+  img
+    animation: irritate 1s
+    display: block
+.disappear
+  background-color: $red
+    transition: ease 0.25s
+  img
+    display: none
+
+    
+@keyframes rotate
+  0%
+    transform: rotate(-180deg)
+    height: 0
+  100%
+    transform: rotate(0deg)
+    height: 100px
+
+@keyframes vibrate
+  0%
+    transform: scale(0)    
+  25%
+    transform: scale(1.0)
+  75%
+    transform: scale(1.1)
+  100%
+    transform: scale(1.0)    
+
+@keyframes irritate
+  0%
+    transform: translateX(0px)
+  25%
+    transform: translateX(-10px)
+  50%
+    transform: translateX(0px)
+  75%
+    transform: translateX(-10px)
+  100%
+    transform: translateX(0px)
+    
+
+//resposive
+@media screen and ( max-width: 720px )
+  .placar-content
+    width: 100%
+    font-size: 14px
+    div
+      p
+        font-size: 14px
+    h2.clock
+      font-size: 16px
+      
+  .memory  
+    width:  50px
+    height: 50px
+  @keyframes rotate
+    0%
+      transform: rotate(-180deg)
+      height: 0
+    100%
+      transform: rotate(0deg)
+      height: 50px
+
+  @keyframes irritate
+    0%
+      transform: translateX(0px)
+    25%
+      transform: translateX(-5px)
+    50%
+      transform: translateX(0px)
+    75%
+      transform: translateX(-5px)
+    100%
+      transform: translateX(0px)
+
+  .modal
+    &-content
+      display: flex
+      align-items: center
+      height: 336px
+      width: 270px
+    &-body
+      padding: 2rem
+      h2
+        font-size: 20px
+      h3
+        font-size: 16px
+      ul
+        margin-left: 2.5rem
+      .btn
+        margin-top: 1.5rem
+        button
+          width: 200px

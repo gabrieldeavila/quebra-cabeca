@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 2000.04 1887.97"
+   version="1.1"
+   id="svg957"
+   sodipodi:docname="vechain.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)">
+  <metadata
+     id="metadata961">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1360"
+     inkscape:window-height="700"
+     id="namedview959"
+     showgrid="false"
+     inkscape:zoom="0.1353673"
+     inkscape:cx="-209.09015"
+     inkscape:cy="1202.0794"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1-2" />
+  <defs
+     id="defs945">
+    <style
+       id="style924">.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#fff;opacity:0.1;isolation:isolate;}</style>
+    <linearGradient
+       id="linear-gradient"
+       y1="-330.01"
+       x2="2000.04"
+       y2="-330.01"
+       gradientTransform="translate(0 1274)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#9d4abe"
+         id="stop926" />
+      <stop
+         offset="0.03"
+         stop-color="#9055c4"
+         id="stop928" />
+      <stop
+         offset="0.15"
+         stop-color="#6b74d6"
+         id="stop930" />
+      <stop
+         offset="0.26"
+         stop-color="#4c8fe5"
+         id="stop932" />
+      <stop
+         offset="0.39"
+         stop-color="#34a3f0"
+         id="stop934" />
+      <stop
+         offset="0.52"
+         stop-color="#22b2f9"
+         id="stop936" />
+      <stop
+         offset="0.66"
+         stop-color="#18bafd"
+         id="stop938" />
+      <stop
+         offset="0.83"
+         stop-color="#15bdff"
+         id="stop940" />
+      <stop
+         offset="1"
+         stop-color="#28bad5"
+         id="stop942" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title947">vechain-ven-logo</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1">
+      <path
+         class="cls-1"
+         d="M859.79,1803,4.39,60.7C-9.51,32.9,11.39,0,42.19,0h296.4c15.9,0,30.8,9,37.8,22.9l624.7,1264c55.7,113.4,216.8,113.4,272.5,0l622.7-1263c7-13.9,21.9-22.9,37.8-22.9h36.8c21.9,0,35.8,22.9,25.9,41.8L1132.39,1803c-55.7,113.3-216.9,113.3-272.6,0Z"
+         id="path949"
+         style="fill:#f5f5f5;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
